@@ -1,0 +1,18 @@
+#include <iostream>
+#include "parser/parser.hpp"
+#include "windows.h"
+using namespace std;
+using namespace module_parser;
+
+int main()
+{
+    SetConsoleOutputCP(65001);
+    initLog();
+    Parser p("C:\\Users\\26806\\Desktop\\class\\Compilers\\Interpreter\\testcase\\lexTest.txt");
+    p.run();
+    getchar();
+}
+
+g++ -g ./*.cpp ../lexer/lexer.cpp ../lexer/dfa.cpp ../lexer/token.cpp ../errorlog/*.cpp ../parser/parser.cpp  -o semantics_test.exe -I ../include/
+
+g++ -g ./*.cpp ../lexer/lexer.cpp ../lexer/dfa.cpp ../lexer/token.cpp ../errorlog/*.cpp ../parser/parser.cpp ../ui_main/GUI.cpp  -o semantics_test.exe -I ../include/ -lgraphics64 -luuid -lmsimg32 -lgdi32 -limm32 -lole32  -loleaut32 -lwinmm -lgdiplus

@@ -1,0 +1,5 @@
+
+ORIGIN IS (380,240);
+SCALE IS(80,80/3);
+
+FOR T FROM 0 TO 2*PI STEP PI/50 DRAW(cos(T), sin(T));

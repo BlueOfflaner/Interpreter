@@ -1,0 +1,117 @@
+Expression Tree
+	|——  100.000000
+
+
+Expression Tree
+	|——  100.000000
+
+
+Expression Tree
+	|——  0.500000
+
+
+Expression Tree
+	|——  1.200000
+
+
+Expression Tree
+	|——  1.000000
+
+
+Expression Tree
+	|——  500.000000
+
+
+Expression Tree
+	|——  1.000000
+
+
+Expression Tree
+	|——  T
+
+
+Expression Tree
+	|——  *
+		|——  10.000000
+		|——  0000000000458300
+			|——  T
+
+
+Expression Tree
+	|——  1.000000
+
+
+Expression Tree
+	|——  500.000000
+
+
+Expression Tree
+	|——  1.000000
+
+
+Expression Tree
+	|——  T
+
+
+Expression Tree
+	|——  0000000000458680
+		|——  /
+			|——  T
+			|——  80.000000
+
+
+Expression Tree
+	|——  1.000000
+
+
+Expression Tree
+	|——  10.000000
+
+
+Expression Tree
+	|——  0.000000
+
+
+Expression Tree
+	|——  1.000000
+
+
+Expression Tree
+	|——  500.000000
+
+
+Expression Tree
+	|——  1.000000
+
+
+Expression Tree
+	|——  T
+
+
+Expression Tree
+	|——  0000000000459140
+		|——  /
+			|——  T
+			|——  10.000000
+
+
+Expression Tree
+	|——  100.000000
+
+
+Expression Tree
+	|——  300.000000
+
+
+Expression Tree
+	|——  0.000000
+
+
+Expression Tree
+	|——  50.000000
+
+
+Expression Tree
+	|——  50.000000
+
+

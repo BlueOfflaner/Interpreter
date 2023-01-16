@@ -1,0 +1,42 @@
+{
+    "tasks": [
+        {
+            "type": "cppbuild",
+            "label": "C/C++: g++.exe 生成活动文件",
+            "command": "E:\\mingw64\\bin\\g++.exe",
+            "args": [
+                "-fdiagnostics-color=always",
+                "-g",
+                "./*.cpp",
+                "../lexer/lexer.cpp",
+                "../lexer/dfa.cpp",
+                "../lexer/token.cpp",
+                "../errorlog/*.cpp",
+                "../semantics/semantics.cpp",
+                // "../ui_main/GUI.cpp",
+                "-o",
+                "parser_test.exe",
+                "-I",
+                "../include/",
+                // "-lgraphics64",
+                // "-luuid",
+                // "-lmsimg32",
+                // "-lgdi32",
+                // "-limm32",
+                // "-lole32",
+                // "-loleaut32",
+                // "-lwinmm",
+                // "-lgdiplus"
+            ],
+            "options": {
+                "cwd": "${fileDirname}"
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "group": "build",
+            "detail": "调试器生成的任务。"
+        },
+    ],
+    "version": "2.0.0"
+}
